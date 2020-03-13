@@ -1,0 +1,395 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/ee8b8d59/
+.App	client/src/App.css	/^.App {$/;"	c
+.App-header	client/src/App.css	/^.App-header {$/;"	c
+.App-link	client/src/App.css	/^.App-link {$/;"	c
+.App-logo	client/src/App.css	/^  .App-logo {$/;"	c
+.App-logo	client/src/App.css	/^.App-logo {$/;"	c
+0	client/package.json	/^      ">0.2%",$/;"	s	array:browserslist.production
+0	client/package.json	/^      "last 1 chrome version",$/;"	s	array:browserslist.development
+0	client/public/manifest.json	/^    {$/;"	o	array:icons
+1	client/package.json	/^      "last 1 firefox version",$/;"	s	array:browserslist.development
+1	client/package.json	/^      "not dead",$/;"	s	array:browserslist.production
+1	client/public/manifest.json	/^    {$/;"	o	array:icons
+2	client/package.json	/^      "last 1 safari version"$/;"	s	array:browserslist.development
+2	client/package.json	/^      "not op_mini all"$/;"	s	array:browserslist.production
+2	client/public/manifest.json	/^    {$/;"	o	array:icons
+@testing-library/jest-dom	client/package.json	/^    "@testing-library\/jest-dom": "^4.2.4",$/;"	s	object:dependencies
+@testing-library/react	client/package.json	/^    "@testing-library\/react": "^9.3.2",$/;"	s	object:dependencies
+@testing-library/user-event	client/package.json	/^    "@testing-library\/user-event": "^7.1.2",$/;"	s	object:dependencies
+Advanced Configuration	client/README.md	/^### Advanced Configuration$/;"	S	section:Learn More
+Analyzing the Bundle Size	client/README.md	/^### Analyzing the Bundle Size$/;"	S	section:Learn More
+App	client/src/App.js	/^function App() {$/;"	f
+Available Scripts	client/README.md	/^## Available Scripts$/;"	s
+Code Splitting	client/README.md	/^### Code Splitting$/;"	S	section:Learn More
+Deployment	client/README.md	/^### Deployment$/;"	S	section:Learn More
+Learn More	client/README.md	/^## Learn More$/;"	s
+Making a Progressive Web App	client/README.md	/^### Making a Progressive Web App$/;"	S	section:Learn More
+`yarn build`	client/README.md	/^### `yarn build`$/;"	S	section:Available Scripts
+`yarn build` fails to minify	client/README.md	/^### `yarn build` fails to minify$/;"	S	section:Learn More
+`yarn eject`	client/README.md	/^### `yarn eject`$/;"	S	section:Available Scripts
+`yarn start`	client/README.md	/^### `yarn start`$/;"	S	section:Available Scripts
+`yarn test`	client/README.md	/^### `yarn test`$/;"	S	section:Available Scripts
+accepts	server/package-lock.json	/^        "accepts": "~1.3.7",$/;"	s	object:dependencies.express.requires
+accepts	server/package-lock.json	/^    "accepts": {$/;"	o	object:dependencies
+app	server/index.js	/^const app = express()$/;"	C
+array-flatten	server/package-lock.json	/^        "array-flatten": "1.1.1",$/;"	s	object:dependencies.express.requires
+array-flatten	server/package-lock.json	/^    "array-flatten": {$/;"	o	object:dependencies
+background_color	client/public/manifest.json	/^  "background_color": "#ffffff"$/;"	s
+body	client/src/index.css	/^body {$/;"	s
+body-parser	server/package-lock.json	/^        "body-parser": "1.19.0",$/;"	s	object:dependencies.express.requires
+body-parser	server/package-lock.json	/^    "body-parser": {$/;"	o	object:dependencies
+browserslist	client/package.json	/^  "browserslist": {$/;"	o
+build	client/package.json	/^    "build": "react-scripts build",$/;"	s	object:scripts
+bytes	server/package-lock.json	/^        "bytes": "3.1.0",$/;"	s	object:dependencies.body-parser.requires
+bytes	server/package-lock.json	/^        "bytes": "3.1.0",$/;"	s	object:dependencies.raw-body.requires
+bytes	server/package-lock.json	/^    "bytes": {$/;"	o	object:dependencies
+checkValidServiceWorker	client/src/serviceWorker.js	/^function checkValidServiceWorker(swUrl, config) {$/;"	f
+code	client/src/index.css	/^code {$/;"	s
+content-disposition	server/package-lock.json	/^        "content-disposition": "0.5.3",$/;"	s	object:dependencies.express.requires
+content-disposition	server/package-lock.json	/^    "content-disposition": {$/;"	o	object:dependencies
+content-type	server/package-lock.json	/^        "content-type": "~1.0.4",$/;"	s	object:dependencies.body-parser.requires
+content-type	server/package-lock.json	/^        "content-type": "~1.0.4",$/;"	s	object:dependencies.express.requires
+content-type	server/package-lock.json	/^    "content-type": {$/;"	o	object:dependencies
+cookie	server/package-lock.json	/^        "cookie": "0.4.0",$/;"	s	object:dependencies.express.requires
+cookie	server/package-lock.json	/^    "cookie": {$/;"	o	object:dependencies
+cookie-signature	server/package-lock.json	/^        "cookie-signature": "1.0.6",$/;"	s	object:dependencies.express.requires
+cookie-signature	server/package-lock.json	/^    "cookie-signature": {$/;"	o	object:dependencies
+debug	server/package-lock.json	/^        "debug": "2.6.9",$/;"	s	object:dependencies.body-parser.requires
+debug	server/package-lock.json	/^        "debug": "2.6.9",$/;"	s	object:dependencies.express.requires
+debug	server/package-lock.json	/^        "debug": "2.6.9",$/;"	s	object:dependencies.finalhandler.requires
+debug	server/package-lock.json	/^        "debug": "2.6.9",$/;"	s	object:dependencies.send.requires
+debug	server/package-lock.json	/^    "debug": {$/;"	o	object:dependencies
+depd	server/package-lock.json	/^        "depd": "~1.1.2",$/;"	s	object:dependencies.body-parser.requires
+depd	server/package-lock.json	/^        "depd": "~1.1.2",$/;"	s	object:dependencies.express.requires
+depd	server/package-lock.json	/^        "depd": "~1.1.2",$/;"	s	object:dependencies.http-errors.requires
+depd	server/package-lock.json	/^        "depd": "~1.1.2",$/;"	s	object:dependencies.send.requires
+depd	server/package-lock.json	/^    "depd": {$/;"	o	object:dependencies
+dependencies	client/package.json	/^  "dependencies": {$/;"	o
+dependencies	server/package-lock.json	/^      "dependencies": {$/;"	o	object:dependencies.send
+dependencies	server/package-lock.json	/^  "dependencies": {$/;"	o
+dependencies	server/package.json	/^  "dependencies": {$/;"	o
+destroy	server/package-lock.json	/^        "destroy": "~1.0.4",$/;"	s	object:dependencies.send.requires
+destroy	server/package-lock.json	/^    "destroy": {$/;"	o	object:dependencies
+development	client/package.json	/^    "development": [$/;"	a	object:browserslist
+display	client/public/manifest.json	/^  "display": "standalone",$/;"	s
+ee-first	server/package-lock.json	/^        "ee-first": "1.1.1"$/;"	s	object:dependencies.on-finished.requires
+ee-first	server/package-lock.json	/^    "ee-first": {$/;"	o	object:dependencies
+eject	client/package.json	/^    "eject": "react-scripts eject"$/;"	s	object:scripts
+encodeurl	server/package-lock.json	/^        "encodeurl": "~1.0.2",$/;"	s	object:dependencies.express.requires
+encodeurl	server/package-lock.json	/^        "encodeurl": "~1.0.2",$/;"	s	object:dependencies.finalhandler.requires
+encodeurl	server/package-lock.json	/^        "encodeurl": "~1.0.2",$/;"	s	object:dependencies.send.requires
+encodeurl	server/package-lock.json	/^        "encodeurl": "~1.0.2",$/;"	s	object:dependencies.serve-static.requires
+encodeurl	server/package-lock.json	/^    "encodeurl": {$/;"	o	object:dependencies
+escape-html	server/package-lock.json	/^        "escape-html": "~1.0.3",$/;"	s	object:dependencies.express.requires
+escape-html	server/package-lock.json	/^        "escape-html": "~1.0.3",$/;"	s	object:dependencies.finalhandler.requires
+escape-html	server/package-lock.json	/^        "escape-html": "~1.0.3",$/;"	s	object:dependencies.send.requires
+escape-html	server/package-lock.json	/^        "escape-html": "~1.0.3",$/;"	s	object:dependencies.serve-static.requires
+escape-html	server/package-lock.json	/^    "escape-html": {$/;"	o	object:dependencies
+eslintConfig	client/package.json	/^  "eslintConfig": {$/;"	o
+etag	server/package-lock.json	/^        "etag": "~1.8.1",$/;"	s	object:dependencies.express.requires
+etag	server/package-lock.json	/^        "etag": "~1.8.1",$/;"	s	object:dependencies.send.requires
+etag	server/package-lock.json	/^    "etag": {$/;"	o	object:dependencies
+express	server/index.js	/^const express = require('express')$/;"	C
+express	server/package-lock.json	/^    "express": {$/;"	o	object:dependencies
+express	server/package.json	/^    "express": "^4.17.1"$/;"	s	object:dependencies
+extends	client/package.json	/^    "extends": "react-app"$/;"	s	object:eslintConfig
+finalhandler	server/package-lock.json	/^        "finalhandler": "~1.1.2",$/;"	s	object:dependencies.express.requires
+finalhandler	server/package-lock.json	/^    "finalhandler": {$/;"	o	object:dependencies
+forwarded	server/package-lock.json	/^        "forwarded": "~0.1.2",$/;"	s	object:dependencies.proxy-addr.requires
+forwarded	server/package-lock.json	/^    "forwarded": {$/;"	o	object:dependencies
+fresh	server/package-lock.json	/^        "fresh": "0.5.2",$/;"	s	object:dependencies.express.requires
+fresh	server/package-lock.json	/^        "fresh": "0.5.2",$/;"	s	object:dependencies.send.requires
+fresh	server/package-lock.json	/^    "fresh": {$/;"	o	object:dependencies
+http-errors	server/package-lock.json	/^        "http-errors": "1.7.2",$/;"	s	object:dependencies.body-parser.requires
+http-errors	server/package-lock.json	/^        "http-errors": "1.7.2",$/;"	s	object:dependencies.raw-body.requires
+http-errors	server/package-lock.json	/^        "http-errors": "~1.7.2",$/;"	s	object:dependencies.send.requires
+http-errors	server/package-lock.json	/^    "http-errors": {$/;"	o	object:dependencies
+icons	client/public/manifest.json	/^  "icons": [$/;"	a
+iconv-lite	server/package-lock.json	/^        "iconv-lite": "0.4.24",$/;"	s	object:dependencies.body-parser.requires
+iconv-lite	server/package-lock.json	/^        "iconv-lite": "0.4.24",$/;"	s	object:dependencies.raw-body.requires
+iconv-lite	server/package-lock.json	/^    "iconv-lite": {$/;"	o	object:dependencies
+inherits	server/package-lock.json	/^        "inherits": "2.0.3",$/;"	s	object:dependencies.http-errors.requires
+inherits	server/package-lock.json	/^    "inherits": {$/;"	o	object:dependencies
+integrity	server/package-lock.json	/^          "integrity": "sha512-tgp+dl5cGk28utYktBsrFqA7HKgrhgPsg6Z\/EfhWI4gl1Hwq8B\/GmY\/0oXZ6nF/;"	s	object:dependencies.send.dependencies.ms
+integrity	server/package-lock.json	/^      "integrity": "sha1-32BBeABfUi8V60SQ5yR6G\/qmf4w="$/;"	s	object:dependencies.path-to-regexp
+integrity	server/package-lock.json	/^      "integrity": "sha1-4wOogrNCzD7oylE6eZmXNNqzriw="$/;"	s	object:dependencies.cookie-signature
+integrity	server/package-lock.json	/^      "integrity": "sha1-Aljq5NPQwJdN4cFpGI7wBR0dGYg="$/;"	s	object:dependencies.escape-html
+integrity	server/package-lock.json	/^      "integrity": "sha1-Fhx9rBd2Wf2YEfQ3cfqZOBR4Yow="$/;"	s	object:dependencies.statuses
+integrity	server/package-lock.json	/^      "integrity": "sha1-IPEzZIGwg811M3mSoWlxqi2QaUc=",$/;"	s	object:dependencies.on-finished
+integrity	server/package-lock.json	/^      "integrity": "sha1-IpnwLG3tMNSllhsLn3RSShj2NPw="$/;"	s	object:dependencies.vary
+integrity	server/package-lock.json	/^      "integrity": "sha1-PYyt2Q2XZWn6g1qx+OSyOhBWBac="$/;"	s	object:dependencies.fresh
+integrity	server/package-lock.json	/^      "integrity": "sha1-Qa4u62XvpiJorr\/qg6x9eSmbCIc="$/;"	s	object:dependencies.etag
+integrity	server/package-lock.json	/^      "integrity": "sha1-VSmk1nZUE07cxSZmVoNbD4Ua\/O4="$/;"	s	object:dependencies.methods
+integrity	server/package-lock.json	/^      "integrity": "sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g="$/;"	s	object:dependencies.ms
+integrity	server/package-lock.json	/^      "integrity": "sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0="$/;"	s	object:dependencies.ee-first
+integrity	server/package-lock.json	/^      "integrity": "sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4="$/;"	s	object:dependencies.inherits
+integrity	server/package-lock.json	/^      "integrity": "sha1-hxDXrwqmJvj\/+hzgAWhUUmMlV0g="$/;"	s	object:dependencies.media-typer
+integrity	server/package-lock.json	/^      "integrity": "sha1-l4hXRCxEdJ5CBmE+N5RiBYJqvYA="$/;"	s	object:dependencies.destroy
+integrity	server/package-lock.json	/^      "integrity": "sha1-m81S4UwJd2PnSbJ0xDRu0uVgtak="$/;"	s	object:dependencies.depd
+integrity	server/package-lock.json	/^      "integrity": "sha1-mMI9qxF1ZXuMBXPozszZGw\/xjIQ="$/;"	s	object:dependencies.forwarded
+integrity	server/package-lock.json	/^      "integrity": "sha1-ml9pkFGx5wczKPKgCJaLZOopVdI="$/;"	s	object:dependencies.array-flatten
+integrity	server/package-lock.json	/^      "integrity": "sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM="$/;"	s	object:dependencies.utils-merge
+integrity	server/package-lock.json	/^      "integrity": "sha1-rT\/0yG7C0CkyL1oCw6mmBslbP1k="$/;"	s	object:dependencies.encodeurl
+integrity	server/package-lock.json	/^      "integrity": "sha1-sAqqVW3YtEVoFQ7J0blT8\/kMu2E="$/;"	s	object:dependencies.merge-descriptors
+integrity	server/package-lock.json	/^      "integrity": "sha1-sr9O6FFKrmFltIF4KdIbLvSZBOw="$/;"	s	object:dependencies.unpipe
+integrity	server/package-lock.json	/^      "integrity": "sha512-+5dsGEEovYbT8UY9yD7eE4XTc4UwJ1jBYlgaQQF38ENsKR3wj\/8q8RFZrF9WIZpB2V1A/;"	s	object:dependencies.mime-db
+integrity	server/package-lock.json	/^      "integrity": "sha512-+Hp8fLp57wnUSt0tY0tHEXh4voZRDnoIrZPqlo3DPiI4y9lwg\/jqx+1Om94\/W6ZaPDO/;"	s	object:dependencies.cookie
+integrity	server/package-lock.json	/^      "integrity": "sha512-01paPWYgLrkqAyrlDorC1uDwl2p3qZT7yl806vW7DvDoxwXi46jsjFbg+WdwotBIk6\/M/;"	s	object:dependencies.mime-types
+integrity	server/package-lock.json	/^      "integrity": "sha512-0KI\/607xoxSToH7GjN1FfSbLoU0+btTicjsQSWQlh\/hZykN8KpmMf7uYwPW3R+akZ6R/;"	s	object:dependencies.ipaddr.js
+integrity	server/package-lock.json	/^      "integrity": "sha512-4Oz8DUIwdvoa5qMJelxipzi\/iJIi40O5cGV1wNYp5hvZP8ZN0T+jiNkL0QepXs+EsQ9X/;"	s	object:dependencies.raw-body
+integrity	server/package-lock.json	/^      "integrity": "sha512-BsVKsiGcQMFwT8UxypobUKyv7irCNRHk1T0G680vk88yf6LBByGcZJOTJCrTP2xVN6yI+/;"	s	object:dependencies.send
+integrity	server/package-lock.json	/^      "integrity": "sha512-CiyeOxFT\/JZyN5m0z9PfXw4SCBJ6Sygz1Dpl0wqjlhDEGGBP1GnsUVEL0p63hoG1fcj3/;"	s	object:dependencies.parseurl
+integrity	server/package-lock.json	/^      "integrity": "sha512-ExO0774ikEObIAEV9kDo50o+79VCUdEB6n6lzKgGwupcVeRlhrj3qGAfwq8G6uBJjkqLr/;"	s	object:dependencies.content-disposition
+integrity	server/package-lock.json	/^      "integrity": "sha512-Gd2UZBJDkXlY7GbJxfsE8\/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOI/;"	s	object:dependencies.safe-buffer
+integrity	server/package-lock.json	/^      "integrity": "sha512-Hrgsx+orqoygnmhFbKaHE6c296J+HTAQXoxEF6gNupROmmGJRoyzfG3ccAveqCBrwr\/2/;"	s	object:dependencies.range-parser
+integrity	server/package-lock.json	/^      "integrity": "sha512-Il80Qs2WjYlJIBNzNkK6KYqlVMTbZLXgHx2oT0pU\/fjRHyEp+PEfEPY0R3WCwAGVOtau/;"	s	object:dependencies.accepts
+integrity	server/package-lock.json	/^      "integrity": "sha512-JMrvUwE54emCYWlTI+hGrGv5I8dEwmco\/00EvkzIIsR7MqrHonbD9pO2MOfFnpFntl7e/;"	s	object:dependencies.serve-static
+integrity	server/package-lock.json	/^      "integrity": "sha512-JvdAWfbXeIGaZ9cILp38HntZSFSo3mWg6xGcJJsd+d4aRMOqauag1C63dJfDw7OaMYwEb/;"	s	object:dependencies.setprototypeof
+integrity	server/package-lock.json	/^      "integrity": "sha512-TkRKr9sUTxEH8MdfuCSP7VizJyzRNMjj2J2do2Jr3Kym598JVdEksuzPQCnlFPW4ky9Q+/;"	s	object:dependencies.type-is
+integrity	server/package-lock.json	/^      "integrity": "sha512-VCdBRNFTX1fyE7Nb6FYoURo\/SPe62QCaAyzJvUjwRaIsc+NePBEniHlvxFmmX56+HZph/;"	s	object:dependencies.qs
+integrity	server/package-lock.json	/^      "integrity": "sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7v/;"	s	object:dependencies.safer-buffer
+integrity	server/package-lock.json	/^      "integrity": "sha512-aAWcW57uxVNrQZqFXjITpW3sIUQmHGG3qSb9mUah9MgMC4NeWhNOlNjXEYq3HjRAvL6ar/;"	s	object:dependencies.finalhandler
+integrity	server/package-lock.json	/^      "integrity": "sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm\/E7A/;"	s	object:dependencies.debug
+integrity	server/package-lock.json	/^      "integrity": "sha512-dhEPs72UPbDnAQJ9ZKMNTP6ptJaionhP5cBb541nXPlW60Jepo9RV\/a4fX4XWW9CuFNK/;"	s	object:dependencies.body-parser
+integrity	server/package-lock.json	/^      "integrity": "sha512-dh\/frvCBVmSsDYzw6n926jv974gddhkFPfiN8hPOi30Wax25QZyZEGveluCgliBnqmuM/;"	s	object:dependencies.proxy-addr
+integrity	server/package-lock.json	/^      "integrity": "sha512-hIP3EEPs8tB9AT1L+NUqtwOAps4mk2Zob89MWXMHjHWg9milF\/j4osnnQLXBCBFBk\/t/;"	s	object:dependencies.content-type
+integrity	server/package-lock.json	/^      "integrity": "sha512-hZXc7K2e+PgeI1eDBe\/10Ard4ekbfrrqG8Ep+8Jmf4JID2bNg7NvCPOZN+kfF574pFQI/;"	s	object:dependencies.negotiator
+integrity	server/package-lock.json	/^      "integrity": "sha512-mHJ9O79RqluphRrcw2X\/GTh3k9tVv8YcoyY4Kkh4WDMUYKRZUq0h1o0w2rrrxBqM7Voe/;"	s	object:dependencies.express
+integrity	server/package-lock.json	/^      "integrity": "sha512-uUQBt3H\/cSIVfch6i1EuPNy\/YsRSOUBXTVfZ+yR7Zjez3qjBz6i9+i4zjNaoqcoFVI4/;"	s	object:dependencies.http-errors
+integrity	server/package-lock.json	/^      "integrity": "sha512-v3MXnZAcvnywkTUEZomIActle7RXXeedOR31wwl7VlyoXO4Qi9arvSenNQWne1TcRwhCL/;"	s	object:dependencies.iconv-lite
+integrity	server/package-lock.json	/^      "integrity": "sha512-x0Vn8spI+wuJ1O6S7gnbaQg8Pxh4NNHb7KSINmEWKiPE4RKOplvijn+NkmYmmRgP68mc7/;"	s	object:dependencies.mime
+integrity	server/package-lock.json	/^      "integrity": "sha512-yaOH\/Pk\/VEhBWWTlhI+qXxDFXlejDGcQipMlyxda9nthulaxLZUNcUqFxokp0vcYnvt/;"	s	object:dependencies.toidentifier
+integrity	server/package-lock.json	/^      "integrity": "sha512-zauLjrfCG+xvoyaqLoV8bLVXXNGC4JqlxFCutSDWA6fJrTo2ZuvLYTqZ7aHBLZSMOopbz/;"	s	object:dependencies.bytes
+ipaddr.js	server/package-lock.json	/^        "ipaddr.js": "1.9.1"$/;"	s	object:dependencies.proxy-addr.requires
+ipaddr.js	server/package-lock.json	/^    "ipaddr.js": {$/;"	o	object:dependencies
+isLocalhost	client/src/serviceWorker.js	/^const isLocalhost = Boolean($/;"	C
+license	server/package.json	/^  "license": "MIT",$/;"	s
+lockfileVersion	server/package-lock.json	/^  "lockfileVersion": 1,$/;"	n
+main	server/package.json	/^  "main": "index.js",$/;"	s
+media-typer	server/package-lock.json	/^        "media-typer": "0.3.0",$/;"	s	object:dependencies.type-is.requires
+media-typer	server/package-lock.json	/^    "media-typer": {$/;"	o	object:dependencies
+merge-descriptors	server/package-lock.json	/^        "merge-descriptors": "1.0.1",$/;"	s	object:dependencies.express.requires
+merge-descriptors	server/package-lock.json	/^    "merge-descriptors": {$/;"	o	object:dependencies
+methods	server/package-lock.json	/^        "methods": "~1.1.2",$/;"	s	object:dependencies.express.requires
+methods	server/package-lock.json	/^    "methods": {$/;"	o	object:dependencies
+mime	server/package-lock.json	/^        "mime": "1.6.0",$/;"	s	object:dependencies.send.requires
+mime	server/package-lock.json	/^    "mime": {$/;"	o	object:dependencies
+mime-db	server/package-lock.json	/^        "mime-db": "1.43.0"$/;"	s	object:dependencies.mime-types.requires
+mime-db	server/package-lock.json	/^    "mime-db": {$/;"	o	object:dependencies
+mime-types	server/package-lock.json	/^        "mime-types": "~2.1.24"$/;"	s	object:dependencies.type-is.requires
+mime-types	server/package-lock.json	/^        "mime-types": "~2.1.24",$/;"	s	object:dependencies.accepts.requires
+mime-types	server/package-lock.json	/^    "mime-types": {$/;"	o	object:dependencies
+money_keeper	README.md	/^# money_keeper$/;"	c
+ms	server/package-lock.json	/^        "ms": "2.0.0"$/;"	s	object:dependencies.debug.requires
+ms	server/package-lock.json	/^        "ms": "2.1.1",$/;"	s	object:dependencies.send.requires
+ms	server/package-lock.json	/^        "ms": {$/;"	o	object:dependencies.send.dependencies
+ms	server/package-lock.json	/^    "ms": {$/;"	o	object:dependencies
+name	client/package.json	/^  "name": "app",$/;"	s
+name	client/public/manifest.json	/^  "name": "Create React App Sample",$/;"	s
+name	server/package-lock.json	/^  "name": "server",$/;"	s
+name	server/package.json	/^  "name": "server",$/;"	s
+negotiator	server/package-lock.json	/^        "negotiator": "0.6.2"$/;"	s	object:dependencies.accepts.requires
+negotiator	server/package-lock.json	/^    "negotiator": {$/;"	o	object:dependencies
+on-finished	server/package-lock.json	/^        "on-finished": "~2.3.0",$/;"	s	object:dependencies.body-parser.requires
+on-finished	server/package-lock.json	/^        "on-finished": "~2.3.0",$/;"	s	object:dependencies.express.requires
+on-finished	server/package-lock.json	/^        "on-finished": "~2.3.0",$/;"	s	object:dependencies.finalhandler.requires
+on-finished	server/package-lock.json	/^        "on-finished": "~2.3.0",$/;"	s	object:dependencies.send.requires
+on-finished	server/package-lock.json	/^    "on-finished": {$/;"	o	object:dependencies
+parseurl	server/package-lock.json	/^        "parseurl": "~1.3.3",$/;"	s	object:dependencies.express.requires
+parseurl	server/package-lock.json	/^        "parseurl": "~1.3.3",$/;"	s	object:dependencies.finalhandler.requires
+parseurl	server/package-lock.json	/^        "parseurl": "~1.3.3",$/;"	s	object:dependencies.serve-static.requires
+parseurl	server/package-lock.json	/^    "parseurl": {$/;"	o	object:dependencies
+path-to-regexp	server/package-lock.json	/^        "path-to-regexp": "0.1.7",$/;"	s	object:dependencies.express.requires
+path-to-regexp	server/package-lock.json	/^    "path-to-regexp": {$/;"	o	object:dependencies
+port	server/index.js	/^const port = 3000$/;"	C
+private	client/package.json	/^  "private": true,$/;"	b
+production	client/package.json	/^    "production": [$/;"	a	object:browserslist
+proxy-addr	server/package-lock.json	/^        "proxy-addr": "~2.0.5",$/;"	s	object:dependencies.express.requires
+proxy-addr	server/package-lock.json	/^    "proxy-addr": {$/;"	o	object:dependencies
+qs	server/package-lock.json	/^        "qs": "6.7.0",$/;"	s	object:dependencies.body-parser.requires
+qs	server/package-lock.json	/^        "qs": "6.7.0",$/;"	s	object:dependencies.express.requires
+qs	server/package-lock.json	/^    "qs": {$/;"	o	object:dependencies
+range-parser	server/package-lock.json	/^        "range-parser": "~1.2.1",$/;"	s	object:dependencies.express.requires
+range-parser	server/package-lock.json	/^        "range-parser": "~1.2.1",$/;"	s	object:dependencies.send.requires
+range-parser	server/package-lock.json	/^    "range-parser": {$/;"	o	object:dependencies
+raw-body	server/package-lock.json	/^        "raw-body": "2.4.0",$/;"	s	object:dependencies.body-parser.requires
+raw-body	server/package-lock.json	/^    "raw-body": {$/;"	o	object:dependencies
+react	client/package.json	/^    "react": "^16.13.0",$/;"	s	object:dependencies
+react-dom	client/package.json	/^    "react-dom": "^16.13.0",$/;"	s	object:dependencies
+react-scripts	client/package.json	/^    "react-scripts": "3.4.0"$/;"	s	object:dependencies
+register	client/src/serviceWorker.js	/^export function register(config) {$/;"	f
+registerValidSW	client/src/serviceWorker.js	/^function registerValidSW(swUrl, config) {$/;"	f
+requires	server/package-lock.json	/^      "requires": {$/;"	o	object:dependencies.accepts
+requires	server/package-lock.json	/^      "requires": {$/;"	o	object:dependencies.body-parser
+requires	server/package-lock.json	/^      "requires": {$/;"	o	object:dependencies.content-disposition
+requires	server/package-lock.json	/^      "requires": {$/;"	o	object:dependencies.debug
+requires	server/package-lock.json	/^      "requires": {$/;"	o	object:dependencies.express
+requires	server/package-lock.json	/^      "requires": {$/;"	o	object:dependencies.finalhandler
+requires	server/package-lock.json	/^      "requires": {$/;"	o	object:dependencies.http-errors
+requires	server/package-lock.json	/^      "requires": {$/;"	o	object:dependencies.iconv-lite
+requires	server/package-lock.json	/^      "requires": {$/;"	o	object:dependencies.mime-types
+requires	server/package-lock.json	/^      "requires": {$/;"	o	object:dependencies.on-finished
+requires	server/package-lock.json	/^      "requires": {$/;"	o	object:dependencies.proxy-addr
+requires	server/package-lock.json	/^      "requires": {$/;"	o	object:dependencies.raw-body
+requires	server/package-lock.json	/^      "requires": {$/;"	o	object:dependencies.send
+requires	server/package-lock.json	/^      "requires": {$/;"	o	object:dependencies.serve-static
+requires	server/package-lock.json	/^      "requires": {$/;"	o	object:dependencies.type-is
+requires	server/package-lock.json	/^  "requires": true,$/;"	b
+resolved	server/package-lock.json	/^          "resolved": "https:\/\/registry.npmjs.org\/ms\/-\/ms-2.1.1.tgz",$/;"	s	object:dependencies.send.dependencies.ms
+resolved	server/package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/accepts\/-\/accepts-1.3.7.tgz",$/;"	s	object:dependencies.accepts
+resolved	server/package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/array-flatten\/-\/array-flatten-1.1.1.tgz",$/;"	s	object:dependencies.array-flatten
+resolved	server/package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/body-parser\/-\/body-parser-1.19.0.tgz",$/;"	s	object:dependencies.body-parser
+resolved	server/package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/bytes\/-\/bytes-3.1.0.tgz",$/;"	s	object:dependencies.bytes
+resolved	server/package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/content-disposition\/-\/content-disposition-0.5/;"	s	object:dependencies.content-disposition
+resolved	server/package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/content-type\/-\/content-type-1.0.4.tgz",$/;"	s	object:dependencies.content-type
+resolved	server/package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/cookie-signature\/-\/cookie-signature-1.0.6.tgz/;"	s	object:dependencies.cookie-signature
+resolved	server/package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/cookie\/-\/cookie-0.4.0.tgz",$/;"	s	object:dependencies.cookie
+resolved	server/package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/debug\/-\/debug-2.6.9.tgz",$/;"	s	object:dependencies.debug
+resolved	server/package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/depd\/-\/depd-1.1.2.tgz",$/;"	s	object:dependencies.depd
+resolved	server/package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/destroy\/-\/destroy-1.0.4.tgz",$/;"	s	object:dependencies.destroy
+resolved	server/package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/ee-first\/-\/ee-first-1.1.1.tgz",$/;"	s	object:dependencies.ee-first
+resolved	server/package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/encodeurl\/-\/encodeurl-1.0.2.tgz",$/;"	s	object:dependencies.encodeurl
+resolved	server/package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/escape-html\/-\/escape-html-1.0.3.tgz",$/;"	s	object:dependencies.escape-html
+resolved	server/package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/etag\/-\/etag-1.8.1.tgz",$/;"	s	object:dependencies.etag
+resolved	server/package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/express\/-\/express-4.17.1.tgz",$/;"	s	object:dependencies.express
+resolved	server/package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/finalhandler\/-\/finalhandler-1.1.2.tgz",$/;"	s	object:dependencies.finalhandler
+resolved	server/package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/forwarded\/-\/forwarded-0.1.2.tgz",$/;"	s	object:dependencies.forwarded
+resolved	server/package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/fresh\/-\/fresh-0.5.2.tgz",$/;"	s	object:dependencies.fresh
+resolved	server/package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/http-errors\/-\/http-errors-1.7.2.tgz",$/;"	s	object:dependencies.http-errors
+resolved	server/package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/iconv-lite\/-\/iconv-lite-0.4.24.tgz",$/;"	s	object:dependencies.iconv-lite
+resolved	server/package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/inherits\/-\/inherits-2.0.3.tgz",$/;"	s	object:dependencies.inherits
+resolved	server/package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/ipaddr.js\/-\/ipaddr.js-1.9.1.tgz",$/;"	s	object:dependencies.ipaddr.js
+resolved	server/package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/media-typer\/-\/media-typer-0.3.0.tgz",$/;"	s	object:dependencies.media-typer
+resolved	server/package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/merge-descriptors\/-\/merge-descriptors-1.0.1.t/;"	s	object:dependencies.merge-descriptors
+resolved	server/package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/methods\/-\/methods-1.1.2.tgz",$/;"	s	object:dependencies.methods
+resolved	server/package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/mime-db\/-\/mime-db-1.43.0.tgz",$/;"	s	object:dependencies.mime-db
+resolved	server/package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/mime-types\/-\/mime-types-2.1.26.tgz",$/;"	s	object:dependencies.mime-types
+resolved	server/package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/mime\/-\/mime-1.6.0.tgz",$/;"	s	object:dependencies.mime
+resolved	server/package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/ms\/-\/ms-2.0.0.tgz",$/;"	s	object:dependencies.ms
+resolved	server/package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/negotiator\/-\/negotiator-0.6.2.tgz",$/;"	s	object:dependencies.negotiator
+resolved	server/package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/on-finished\/-\/on-finished-2.3.0.tgz",$/;"	s	object:dependencies.on-finished
+resolved	server/package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/parseurl\/-\/parseurl-1.3.3.tgz",$/;"	s	object:dependencies.parseurl
+resolved	server/package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/path-to-regexp\/-\/path-to-regexp-0.1.7.tgz",$/;"	s	object:dependencies.path-to-regexp
+resolved	server/package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/proxy-addr\/-\/proxy-addr-2.0.6.tgz",$/;"	s	object:dependencies.proxy-addr
+resolved	server/package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/qs\/-\/qs-6.7.0.tgz",$/;"	s	object:dependencies.qs
+resolved	server/package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/range-parser\/-\/range-parser-1.2.1.tgz",$/;"	s	object:dependencies.range-parser
+resolved	server/package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/raw-body\/-\/raw-body-2.4.0.tgz",$/;"	s	object:dependencies.raw-body
+resolved	server/package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/safe-buffer\/-\/safe-buffer-5.1.2.tgz",$/;"	s	object:dependencies.safe-buffer
+resolved	server/package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/safer-buffer\/-\/safer-buffer-2.1.2.tgz",$/;"	s	object:dependencies.safer-buffer
+resolved	server/package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/send\/-\/send-0.17.1.tgz",$/;"	s	object:dependencies.send
+resolved	server/package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/serve-static\/-\/serve-static-1.14.1.tgz",$/;"	s	object:dependencies.serve-static
+resolved	server/package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/setprototypeof\/-\/setprototypeof-1.1.1.tgz",$/;"	s	object:dependencies.setprototypeof
+resolved	server/package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/statuses\/-\/statuses-1.5.0.tgz",$/;"	s	object:dependencies.statuses
+resolved	server/package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/toidentifier\/-\/toidentifier-1.0.0.tgz",$/;"	s	object:dependencies.toidentifier
+resolved	server/package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/type-is\/-\/type-is-1.6.18.tgz",$/;"	s	object:dependencies.type-is
+resolved	server/package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/unpipe\/-\/unpipe-1.0.0.tgz",$/;"	s	object:dependencies.unpipe
+resolved	server/package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/utils-merge\/-\/utils-merge-1.0.1.tgz",$/;"	s	object:dependencies.utils-merge
+resolved	server/package-lock.json	/^      "resolved": "https:\/\/registry.npmjs.org\/vary\/-\/vary-1.1.2.tgz",$/;"	s	object:dependencies.vary
+root	client/public/index.html	/^    <div id="root"><\/div>$/;"	I
+safe-buffer	server/package-lock.json	/^        "safe-buffer": "5.1.2"$/;"	s	object:dependencies.content-disposition.requires
+safe-buffer	server/package-lock.json	/^        "safe-buffer": "5.1.2",$/;"	s	object:dependencies.express.requires
+safe-buffer	server/package-lock.json	/^    "safe-buffer": {$/;"	o	object:dependencies
+safer-buffer	server/package-lock.json	/^        "safer-buffer": ">= 2.1.2 < 3"$/;"	s	object:dependencies.iconv-lite.requires
+safer-buffer	server/package-lock.json	/^    "safer-buffer": {$/;"	o	object:dependencies
+scripts	client/package.json	/^  "scripts": {$/;"	o
+send	server/package-lock.json	/^        "send": "0.17.1"$/;"	s	object:dependencies.serve-static.requires
+send	server/package-lock.json	/^        "send": "0.17.1",$/;"	s	object:dependencies.express.requires
+send	server/package-lock.json	/^    "send": {$/;"	o	object:dependencies
+serve-static	server/package-lock.json	/^        "serve-static": "1.14.1",$/;"	s	object:dependencies.express.requires
+serve-static	server/package-lock.json	/^    "serve-static": {$/;"	o	object:dependencies
+setprototypeof	server/package-lock.json	/^        "setprototypeof": "1.1.1",$/;"	s	object:dependencies.express.requires
+setprototypeof	server/package-lock.json	/^        "setprototypeof": "1.1.1",$/;"	s	object:dependencies.http-errors.requires
+setprototypeof	server/package-lock.json	/^    "setprototypeof": {$/;"	o	object:dependencies
+short_name	client/public/manifest.json	/^  "short_name": "React App",$/;"	s
+sizes	client/public/manifest.json	/^      "sizes": "192x192"$/;"	s	object:icons.1
+sizes	client/public/manifest.json	/^      "sizes": "512x512"$/;"	s	object:icons.2
+sizes	client/public/manifest.json	/^      "sizes": "64x64 32x32 24x24 16x16",$/;"	s	object:icons.0
+src	client/public/manifest.json	/^      "src": "favicon.ico",$/;"	s	object:icons.0
+src	client/public/manifest.json	/^      "src": "logo192.png",$/;"	s	object:icons.1
+src	client/public/manifest.json	/^      "src": "logo512.png",$/;"	s	object:icons.2
+start	client/package.json	/^    "start": "react-scripts start",$/;"	s	object:scripts
+start_url	client/public/manifest.json	/^  "start_url": ".",$/;"	s
+statuses	server/package-lock.json	/^        "statuses": ">= 1.5.0 < 2",$/;"	s	object:dependencies.http-errors.requires
+statuses	server/package-lock.json	/^        "statuses": "~1.5.0"$/;"	s	object:dependencies.send.requires
+statuses	server/package-lock.json	/^        "statuses": "~1.5.0",$/;"	s	object:dependencies.express.requires
+statuses	server/package-lock.json	/^        "statuses": "~1.5.0",$/;"	s	object:dependencies.finalhandler.requires
+statuses	server/package-lock.json	/^    "statuses": {$/;"	o	object:dependencies
+test	client/package.json	/^    "test": "react-scripts test",$/;"	s	object:scripts
+theme_color	client/public/manifest.json	/^  "theme_color": "#000000",$/;"	s
+toidentifier	server/package-lock.json	/^        "toidentifier": "1.0.0"$/;"	s	object:dependencies.http-errors.requires
+toidentifier	server/package-lock.json	/^    "toidentifier": {$/;"	o	object:dependencies
+type	client/public/manifest.json	/^      "type": "image\/png",$/;"	s	object:icons.1
+type	client/public/manifest.json	/^      "type": "image\/png",$/;"	s	object:icons.2
+type	client/public/manifest.json	/^      "type": "image\/x-icon"$/;"	s	object:icons.0
+type-is	server/package-lock.json	/^        "type-is": "~1.6.17"$/;"	s	object:dependencies.body-parser.requires
+type-is	server/package-lock.json	/^        "type-is": "~1.6.18",$/;"	s	object:dependencies.express.requires
+type-is	server/package-lock.json	/^    "type-is": {$/;"	o	object:dependencies
+unpipe	server/package-lock.json	/^        "unpipe": "1.0.0"$/;"	s	object:dependencies.raw-body.requires
+unpipe	server/package-lock.json	/^        "unpipe": "~1.0.0"$/;"	s	object:dependencies.finalhandler.requires
+unpipe	server/package-lock.json	/^    "unpipe": {$/;"	o	object:dependencies
+unregister	client/src/serviceWorker.js	/^export function unregister() {$/;"	f
+utils-merge	server/package-lock.json	/^        "utils-merge": "1.0.1",$/;"	s	object:dependencies.express.requires
+utils-merge	server/package-lock.json	/^    "utils-merge": {$/;"	o	object:dependencies
+vary	server/package-lock.json	/^        "vary": "~1.1.2"$/;"	s	object:dependencies.express.requires
+vary	server/package-lock.json	/^    "vary": {$/;"	o	object:dependencies
+version	client/package.json	/^  "version": "0.1.0",$/;"	s
+version	server/package-lock.json	/^          "version": "2.1.1",$/;"	s	object:dependencies.send.dependencies.ms
+version	server/package-lock.json	/^      "version": "0.1.2",$/;"	s	object:dependencies.forwarded
+version	server/package-lock.json	/^      "version": "0.1.7",$/;"	s	object:dependencies.path-to-regexp
+version	server/package-lock.json	/^      "version": "0.17.1",$/;"	s	object:dependencies.send
+version	server/package-lock.json	/^      "version": "0.3.0",$/;"	s	object:dependencies.media-typer
+version	server/package-lock.json	/^      "version": "0.4.0",$/;"	s	object:dependencies.cookie
+version	server/package-lock.json	/^      "version": "0.4.24",$/;"	s	object:dependencies.iconv-lite
+version	server/package-lock.json	/^      "version": "0.5.2",$/;"	s	object:dependencies.fresh
+version	server/package-lock.json	/^      "version": "0.5.3",$/;"	s	object:dependencies.content-disposition
+version	server/package-lock.json	/^      "version": "0.6.2",$/;"	s	object:dependencies.negotiator
+version	server/package-lock.json	/^      "version": "1.0.0",$/;"	s	object:dependencies.toidentifier
+version	server/package-lock.json	/^      "version": "1.0.0",$/;"	s	object:dependencies.unpipe
+version	server/package-lock.json	/^      "version": "1.0.1",$/;"	s	object:dependencies.merge-descriptors
+version	server/package-lock.json	/^      "version": "1.0.1",$/;"	s	object:dependencies.utils-merge
+version	server/package-lock.json	/^      "version": "1.0.2",$/;"	s	object:dependencies.encodeurl
+version	server/package-lock.json	/^      "version": "1.0.3",$/;"	s	object:dependencies.escape-html
+version	server/package-lock.json	/^      "version": "1.0.4",$/;"	s	object:dependencies.content-type
+version	server/package-lock.json	/^      "version": "1.0.4",$/;"	s	object:dependencies.destroy
+version	server/package-lock.json	/^      "version": "1.0.6",$/;"	s	object:dependencies.cookie-signature
+version	server/package-lock.json	/^      "version": "1.1.1",$/;"	s	object:dependencies.array-flatten
+version	server/package-lock.json	/^      "version": "1.1.1",$/;"	s	object:dependencies.ee-first
+version	server/package-lock.json	/^      "version": "1.1.1",$/;"	s	object:dependencies.setprototypeof
+version	server/package-lock.json	/^      "version": "1.1.2",$/;"	s	object:dependencies.depd
+version	server/package-lock.json	/^      "version": "1.1.2",$/;"	s	object:dependencies.finalhandler
+version	server/package-lock.json	/^      "version": "1.1.2",$/;"	s	object:dependencies.methods
+version	server/package-lock.json	/^      "version": "1.1.2",$/;"	s	object:dependencies.vary
+version	server/package-lock.json	/^      "version": "1.14.1",$/;"	s	object:dependencies.serve-static
+version	server/package-lock.json	/^      "version": "1.19.0",$/;"	s	object:dependencies.body-parser
+version	server/package-lock.json	/^      "version": "1.2.1",$/;"	s	object:dependencies.range-parser
+version	server/package-lock.json	/^      "version": "1.3.3",$/;"	s	object:dependencies.parseurl
+version	server/package-lock.json	/^      "version": "1.3.7",$/;"	s	object:dependencies.accepts
+version	server/package-lock.json	/^      "version": "1.43.0",$/;"	s	object:dependencies.mime-db
+version	server/package-lock.json	/^      "version": "1.5.0",$/;"	s	object:dependencies.statuses
+version	server/package-lock.json	/^      "version": "1.6.0",$/;"	s	object:dependencies.mime
+version	server/package-lock.json	/^      "version": "1.6.18",$/;"	s	object:dependencies.type-is
+version	server/package-lock.json	/^      "version": "1.7.2",$/;"	s	object:dependencies.http-errors
+version	server/package-lock.json	/^      "version": "1.8.1",$/;"	s	object:dependencies.etag
+version	server/package-lock.json	/^      "version": "1.9.1",$/;"	s	object:dependencies.ipaddr.js
+version	server/package-lock.json	/^      "version": "2.0.0",$/;"	s	object:dependencies.ms
+version	server/package-lock.json	/^      "version": "2.0.3",$/;"	s	object:dependencies.inherits
+version	server/package-lock.json	/^      "version": "2.0.6",$/;"	s	object:dependencies.proxy-addr
+version	server/package-lock.json	/^      "version": "2.1.2",$/;"	s	object:dependencies.safer-buffer
+version	server/package-lock.json	/^      "version": "2.1.26",$/;"	s	object:dependencies.mime-types
+version	server/package-lock.json	/^      "version": "2.3.0",$/;"	s	object:dependencies.on-finished
+version	server/package-lock.json	/^      "version": "2.4.0",$/;"	s	object:dependencies.raw-body
+version	server/package-lock.json	/^      "version": "2.6.9",$/;"	s	object:dependencies.debug
+version	server/package-lock.json	/^      "version": "3.1.0",$/;"	s	object:dependencies.bytes
+version	server/package-lock.json	/^      "version": "4.17.1",$/;"	s	object:dependencies.express
+version	server/package-lock.json	/^      "version": "5.1.2",$/;"	s	object:dependencies.safe-buffer
+version	server/package-lock.json	/^      "version": "6.7.0",$/;"	s	object:dependencies.qs
+version	server/package-lock.json	/^  "version": "1.0.0",$/;"	s
+version	server/package.json	/^  "version": "1.0.0",$/;"	s

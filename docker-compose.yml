@@ -1,38 +1,36 @@
 version: "3"
 services:
-    client:
-        build: ./client
-        environment: 
-            - APP_CLIENT_PORT:${APP_CLIENT_PORT}
-        expose: 
-            - ${APP_CLIENT_PORT}
-        ports:
-            - ${APP_CLIENT_PORT}:${APP_CLIENT_PORT}
-        volumes:
-            - ./client:/client
-            - /client/node_modules
-        links:
-            - server
-    server:
-        build: ./server
-        expose: 
-            - ${APP_SERVER_PORT}
-        environment: 
-            - API_HOST:${API_HOST}
-            - APP_SERVER_PORT:${APP_SERVER_PORT}
-        ports:
-            - ${APP_SERVER_PORT}:${APP_SERVER_PORT}
-        volumes:
-            - ./server:/server
-            - app/server/node_modules
-        depends_on:
-            - mongodb
-    mongodb:
-        image: mongo
-        container_name: mongodb
-        volumes:
-            - ./data-node:/data/db
-        ports:
-            - 27017:27017
-volumes: 
-    db-data:
+  client:
+    build: ./client
+    environment:
+      - APP_CLIENT_PORT:${APP_CLIENT_PORT}
+    expose:
+      - ${APP_CLIENT_PORT}
+    ports:
+      - ${APP_CLIENT_PORT}:${APP_CLIENT_PORT}
+    volumes:
+      - ./client:/usr/src/app/
+    links:
+      - server
+  server:
+    build: ./server
+    expose:
+      - ${APP_SERVER_PORT}
+    environment:
+      - API_HOST:${API_HOST}
+      - APP_SERVER_PORT:${APP_SERVER_PORT}
+    ports:
+      - ${APP_SERVER_PORT}:${APP_SERVER_PORT}
+    volumes:
+      - ./server:/usr/src/app
+    depends_on:
+      - mongodb
+  mongodb:
+    image: mongo
+    container_name: mongodb
+    volumes:
+      - /data-node:/data/db
+    ports:
+      - 27017:27017
+volumes:
+  app-data:
