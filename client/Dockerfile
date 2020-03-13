@@ -1,12 +1,14 @@
 FROM node:8
 
-WORKDIR /client
+RUN mkdir -p /app/client
 
-COPY package*.json /client/
+WORKDIR /app/client
+
+COPY package*.json /app/client/
 
 RUN npm install
 
-COPY . /client/
+COPY . app/client/
 
 CMD ["npm", "start"]
 

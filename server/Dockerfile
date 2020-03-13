@@ -1,13 +1,13 @@
 FROM node:8
 
-WORKDIR /server
+RUN mkdir -p /app/server
 
-COPY package*.json /server/
+WORKDIR /app/server
+
+COPY package*.json /app/server/
 
 RUN npm install
 
-COPY . /server/
-
-EXPOSE 80
+COPY . /app/server/
 
 CMD ["npm", "start"]
