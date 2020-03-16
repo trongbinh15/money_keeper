@@ -10,4 +10,6 @@ RUN npm install
 
 COPY . /app/server/
 
+EXPOSE 8080
+
 CMD ["npm", "start"]
