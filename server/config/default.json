@@ -1,4 +1,4 @@
 {
-    "mongoURI": "mongodb://trongbinh16:8tjDK45ZrjCiN5Du@devconnector-shard-00-00-ipoec.gcp.mongodb.net:27017,devconnector-shard-00-01-ipoec.gcp.mongodb.net:27017,devconnector-shard-00-02-ipoec.gcp.mongodb.net:27017/myDB?ssl=true&replicaSet=DevConnector-shard-0&authSource=admin&retryWrites=true&w=majority",
-    "jwtSecret": "ihfiahsfisaif"
+  "mongoURI": "mongodb://localhost:27017",
+  "jwtSecret": "ihfiahsfisaif"
 }
