@@ -5,3 +5,7 @@ services:
         ConnectString: 'mongodb://mongo:27017/mydb'
         jwtSecret: 'ihfiahsfisaif'
   mongo:
+    environment: 
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: Aa123456
+      MONGO_INITDB_DATABASE: mydb
