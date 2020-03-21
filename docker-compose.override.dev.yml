@@ -1,0 +1,7 @@
+version: "3"
+services:
+  server:
+    environment: 
+        ConnectString: 'mongodb://mongo:27017/mydb'
+        jwtSecret: 'ihfiahsfisaif'
+  mongo:
