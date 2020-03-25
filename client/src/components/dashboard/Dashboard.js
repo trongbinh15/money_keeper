@@ -1,20 +1,32 @@
 import React, { Fragment } from 'react'
-import PropTypes from 'prop-types'
-import { DatePicker } from 'antd';
+import { Button } from 'antd'
+import { LogoutOutlined } from '@ant-design/icons'
+import { connect } from 'react-redux'
+import { logout } from '../../actions/auth'
+import PropTypes from 'prop-types';
 
-const Dashboard = props => {
+const Dashboard = ({ logout }) => {
     return (
         <Fragment>
             <div>
-            This is dashboard
+                This is dashboard
         </div>
-        <DatePicker></DatePicker>
+            <Button type="primary"
+                icon={<LogoutOutlined />}
+                onClick={() => logout()}
+            >
+                Logout
+            </Button>
+
         </Fragment>
     )
 }
 
 Dashboard.propTypes = {
-
+    logout: PropTypes.func.isRequired,
 }
 
-export default Dashboard
+const mapStateToProps = state => ({
+});
+
+export default connect(mapStateToProps, { logout })(Dashboard);
