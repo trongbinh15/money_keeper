@@ -1,5 +1,8 @@
 version: "3"
 services:
+  client:
+    environment: 
+      REACT_APP_API_URL: http://localhost:8080 
   server:
     environment: 
         ConnectString: 'mongodb://mongo:27017/mydb'
