@@ -1,15 +1,17 @@
 FROM node:8
 
-RUN mkdir -p /app/server
+RUN mkdir -p /usr/src/app 
 
-WORKDIR /app/server
+WORKDIR /usr/src/app 
 
-COPY package*.json /app/server/
+COPY package*.json /usr/src/app/
 
 RUN npm install
 
-COPY . /app/server/
+COPY . /usr/src/app 
 
 EXPOSE 8080
+
+ENV PORT=8080
 
 CMD ["npm", "start"]
