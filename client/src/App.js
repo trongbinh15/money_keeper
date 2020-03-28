@@ -1,5 +1,5 @@
 import React, { useEffect, Fragment } from "react";
-import "./App.css";
+import "./App.scss";
 import store from "./store";
 import setAuthToken from './utils/setAuthToken';
 import { loadUser } from "./actions/auth";

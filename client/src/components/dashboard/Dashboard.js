@@ -4,8 +4,12 @@ import { LogoutOutlined } from '@ant-design/icons'
 import { connect } from 'react-redux'
 import { logout } from '../../actions/auth'
 import PropTypes from 'prop-types';
+import { Redirect } from 'react-router-dom'
 
-const Dashboard = ({ logout }) => {
+const Dashboard = ({ logout, isAuthenticated }) => {
+    if (!isAuthenticated) {
+        return <Redirect to='/login'></Redirect>
+    }
     return (
         <Fragment>
             <div>
@@ -27,6 +31,7 @@ Dashboard.propTypes = {
 }
 
 const mapStateToProps = state => ({
+    isAuthenticated: state.auth.isAuthenticated
 });
 
 export default connect(mapStateToProps, { logout })(Dashboard);

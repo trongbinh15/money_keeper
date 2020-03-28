@@ -3,6 +3,7 @@ import { Link, Redirect } from 'react-router-dom'
 import { connect } from 'react-redux';
 import { login } from '../../actions/auth';
 import PropTypes from 'prop-types';
+import styled from './Login.module.scss';
 
 const Login = ({ login, isAuthenticated }) => {
     const [formData, setFormData] = useState({
@@ -26,32 +27,34 @@ const Login = ({ login, isAuthenticated }) => {
 
     return (
         <Fragment>
-            <h1 className="large text-primary">Sign In</h1>
-            <p className="lead"><i className="fas fa-user"></i> Sign in Your Account</p>
-            <form className="form" onSubmit={e => onSubmit(e)}>
-                <div className="form-group">
-                    <input
-                        type="email"
-                        placeholder="Email Address"
-                        name="email"
-                        value={email}
-                        onChange={e => onChange(e)} />
-                </div>
-                <div className="form-group">
-                    <input
-                        type="password"
-                        placeholder="Password"
-                        name="password"
-                        value={password}
-                        onChange={e => onChange(e)}
-                        minLength="6"
-                    />
-                </div>
-                <input type="submit" className="btn btn-primary" value="Login" />
-            </form>
-            <p className="my-1">
-                Don't have an account? <Link to="register">Sign Up</Link>
-            </p>
+            <div className={styled.body}>
+                <p className="lead"><i className="fas fa-user"></i> Sign in Your Account</p>
+                <form className={styled['form']} onSubmit={e => onSubmit(e)}>
+                    <h1 >Sign In</h1>
+                    <div className={styled['form-group']}>
+                        <input
+                            type="email"
+                            placeholder="Email Address"
+                            name="email"
+                            value={email}
+                            onChange={e => onChange(e)} />
+                    </div>
+                    <div className={styled['form-group']}>
+                        <input
+                            type="password"
+                            placeholder="Password"
+                            name="password"
+                            value={password}
+                            onChange={e => onChange(e)}
+                            minLength="6"
+                        />
+                    </div>
+                    <input type="submit" className="btn btn-primary" value="Login" />
+                </form>
+                <p className="my-1">
+                    Don't have an account? <Link to="register">Sign Up</Link>
+                </p>
+            </div>
         </Fragment>
     )
 }
