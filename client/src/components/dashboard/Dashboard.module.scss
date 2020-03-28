@@ -1,0 +1,30 @@
+
+@import '../../Variables.scss';
+
+
+.body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: $primary-color;
+    width: 100vw;
+    height: 100vh;
+    .anounment{
+        width: 400px;
+        padding: 40px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: darken($primary-color,10%);
+        text-align: center;
+        border-radius: 10px;
+        box-sizing: border-box;
+        box-shadow: 8px 8px 30px #000;
+        .text{
+            color: white;
+            font-size: large;
+            font-weight: 500;
+        }
+    }
+}
