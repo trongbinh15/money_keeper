@@ -8,7 +8,7 @@ import styled from './Register.module.scss';
 
 
 
-const Register = ({ setAlert, register, isAuthenticated }) => {
+const Register = ({ register, isAuthenticated }) => {
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -23,7 +23,7 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
     const onSubmit = async e => {
         e.preventDefault();
         if (password !== password2) {
-            setAlert('Password do not match', 'danger');
+            setAlert('Password do not match', 'error');
         } else {
             register({ name, email, password });
         }
@@ -83,7 +83,6 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
 }
 
 Register.propTypes = {
-    setAlert: PropTypes.func.isRequired,
     register: PropTypes.func.isRequired,
     isAuthenticated: PropTypes.bool,
 }
@@ -92,4 +91,4 @@ const mapStateToProps = state => ({
     isAuthenticated: state.auth.isAuthenticated
 });
 
-export default connect(mapStateToProps, { setAlert, register })(Register);
+export default connect(mapStateToProps, { register })(Register);

@@ -1,17 +1,18 @@
-import { SET_ALERT, REMOVE_ALERT } from './types';
-import uuid from 'uuid';
+import { message } from 'antd'
 
-export const setAlert = (msg, alertType) => dispatch => {
-    const id = uuid.v4();
-    dispatch({
-        type: SET_ALERT,
-        payload: {
-            msg,
-            alertType,
-            id
-        }
-    });
-    setTimeout(() => {
-        dispatch({ type: REMOVE_ALERT, payload: id });
-    }, 1500);
+export const setAlert = (msg, alertType) => {
+    switch (alertType) {
+        case 'error':
+            message.error(msg);
+            break;
+        case 'warning':
+            message.warning(msg);
+            break;
+        case 'success':
+            message.success(msg);
+            break;
+        default:
+            message.success(msg);
+            break;
+    }
 }
