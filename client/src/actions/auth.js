@@ -37,11 +37,12 @@ export const register = ({ name, email, password }) => async dispatch => {
         });
 
         dispatch(loadUser());
+        setAlert('Register user success', 'success');
     } catch (err) {
         const errors = err.response.data.errors;
 
         if (errors) {
-            errors.forEach(error => dispatch(setAlert(error.msg, 'danger')));
+            errors.forEach(error => setAlert(error.msg, 'error'));
         }
         dispatch({
             type: REGISTER_FAIL
@@ -66,10 +67,14 @@ export const login = (email, password) => async dispatch => {
 
         dispatch(loadUser());
     } catch (err) {
-        const errors = err.response.data.errors;
-
-        if (errors) {
-            errors.forEach(error => dispatch(setAlert(error.msg, 'danger')));
+        console.log('err', err);
+        if (!err.response) {
+            setAlert(err.toString(), 'error');
+        } else {
+            const errors = err.response.data.errors;
+            if (errors) {
+                errors.forEach(error => setAlert(error.msg, 'error'));
+            }
         }
         dispatch({
             type: LOGIN_FAIL,

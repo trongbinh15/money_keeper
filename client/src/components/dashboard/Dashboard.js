@@ -5,6 +5,7 @@ import { connect } from 'react-redux'
 import { logout } from '../../actions/auth'
 import PropTypes from 'prop-types';
 import { Redirect } from 'react-router-dom'
+import styled from './Dashboard.module.scss';
 
 const Dashboard = ({ logout, isAuthenticated }) => {
     if (!isAuthenticated) {
@@ -12,16 +13,18 @@ const Dashboard = ({ logout, isAuthenticated }) => {
     }
     return (
         <Fragment>
-            <div>
-                This is dashboard
-        </div>
-            <Button type="primary"
-                icon={<LogoutOutlined />}
-                onClick={() => logout()}
-            >
-                Logout
+            <div className={styled['body']}>
+                <div className={styled['anounment']}>
+                    <p className={styled['text']}>This is dashboard</p>
+                    <Button type="primary"
+                        icon={<LogoutOutlined />}
+                        onClick={() => logout()}
+                    >
+                        Logout
             </Button>
 
+                </div>
+            </div>
         </Fragment>
     )
 }
